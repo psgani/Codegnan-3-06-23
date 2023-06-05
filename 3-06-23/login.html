@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login page</title>
+</head>
+<body><center>
+    <div class="login_container">
+        <h3 class="login_head">LOGIN</h3>
+    
+        <form class="forms">
+            <label class="gmail"><b>Email</b></label><br>
+            <input id="email" type="email" placeholder="xyz@gmail.com" class="user_input" /><br><br>
+            <label class="gmail"><b>Password</b></label><br>
+            <input type="password" class="user_input" placeholder=""/><br>
+            <div class="forgot"><a href="" class="forgot" onclick="progress()">forgot password</a></div>
+            <label class="youare"><b>You are a</b></label>
+            <select name="Role" id="Role" class="Role">
+                <option value="Student">Student</option>
+                <option value="Tutor">Tutor</option>
+                <option value="Admin">Admin</option>
+            </select><br>
+            <button class="login_b" onclick="login_b()" >Login</button><br>
+            Don't have an account? <a href="/Register.html" class="cna" >Create new Account</a>
+        </form>
+    </div>
+</center>
+<script src="/javascript.js"></script>
+
+</body>
+</html>
